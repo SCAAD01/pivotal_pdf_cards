@@ -40,7 +40,8 @@ class Card < OpenStruct
 end
 
 # --- Create cards objects
-
+# add some more attributes 
+# 
 cards = stories.map do |story|
   attrs =  { :title  => story[1]   || '',
              :body   => story[14]  || '',
